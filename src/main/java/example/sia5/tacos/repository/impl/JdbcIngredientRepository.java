@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
+import example.sia5.tacos.model.Ingredient;
 import example.sia5.tacos.respository.IngredientRepository;
-import tacos.Ingredient;
 
 @Repository
 public class JdbcIngredientRepository implements IngredientRepository {

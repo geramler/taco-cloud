@@ -1,5 +1,5 @@
 // tag::baseClass[]
-package tacos;
+package example.sia5.tacos.controller;
 import javax.validation.Valid;
 
 import org.springframework.stereotype.Controller;
@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 //tag::baseClass[]
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import example.sia5.tacos.model.Order;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

@@ -1,4 +1,4 @@
-package tacos;
+package example.sia5.tacos.model;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;

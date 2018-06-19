@@ -1,4 +1,4 @@
-package tacos;
+package example.sia5.tacos.controller;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;

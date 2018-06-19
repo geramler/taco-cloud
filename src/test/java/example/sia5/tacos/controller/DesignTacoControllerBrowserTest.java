@@ -1,4 +1,4 @@
-package tacos;
+package example.sia5.tacos.controller;
 
 import static org.junit.Assert.assertEquals;
 

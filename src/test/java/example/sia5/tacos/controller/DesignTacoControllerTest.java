@@ -1,5 +1,5 @@
 // tag::testShowDesignForm[]
-package tacos;
+package example.sia5.tacos.controller;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.header;
@@ -19,7 +19,10 @@ import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
-import tacos.Ingredient.Type;
+import example.sia5.tacos.controller.DesignTacoController;
+import example.sia5.tacos.model.Design;
+import example.sia5.tacos.model.Ingredient;
+import example.sia5.tacos.model.Ingredient.Type;
 
 //tag::testProcessForm[]
 @RunWith(SpringRunner.class)

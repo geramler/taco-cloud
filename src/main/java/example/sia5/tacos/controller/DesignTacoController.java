@@ -1,4 +1,4 @@
-package tacos;
+package example.sia5.tacos.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,9 +15,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import example.sia5.tacos.model.Design;
+import example.sia5.tacos.model.Ingredient;
+import example.sia5.tacos.model.Ingredient.Type;
 import example.sia5.tacos.respository.IngredientRepository;
 import lombok.extern.slf4j.Slf4j;
-import tacos.Ingredient.Type;
 
 @Slf4j
 @Controller
@@ -39,6 +41,9 @@ public class DesignTacoController {
 		for (Type type : types) {
 			model.addAttribute(type.toString().toLowerCase(), filterByType(ingredients, type));
 		}
+		
+		model.addAttribute("design", new Design());
+		
 		return "design";
 	}
 

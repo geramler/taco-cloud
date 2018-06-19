@@ -1,4 +1,4 @@
-package tacos;
+package example.sia5.tacos.config;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
