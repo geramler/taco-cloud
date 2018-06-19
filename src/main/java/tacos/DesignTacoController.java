@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import example.sia5.jdbc.IngredientRepository;
+import example.sia5.tacos.respository.IngredientRepository;
 import lombok.extern.slf4j.Slf4j;
 import tacos.Ingredient.Type;
 

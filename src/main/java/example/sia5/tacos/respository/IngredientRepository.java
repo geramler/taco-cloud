@@ -1,4 +1,4 @@
-package example.sia5.jdbc;
+package example.sia5.tacos.respository;
 
 import tacos.Ingredient;
 

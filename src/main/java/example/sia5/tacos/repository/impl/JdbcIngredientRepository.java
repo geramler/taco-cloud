@@ -1,4 +1,4 @@
-package example.sia5.jdbc.impl;
+package example.sia5.tacos.repository.impl;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import example.sia5.jdbc.IngredientRepository;
+import example.sia5.tacos.respository.IngredientRepository;
 import tacos.Ingredient;
 
 @Repository
