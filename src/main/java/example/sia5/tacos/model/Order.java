@@ -1,6 +1,8 @@
 package example.sia5.tacos.model;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 import javax.validation.constraints.Digits;
 import javax.validation.constraints.Pattern;
@@ -13,6 +15,8 @@ import lombok.Data;
 @Data
 public class Order {
 
+	private List<Taco> tacos = new ArrayList<Taco>(0);
+	
 	@NotBlank(message = "Name is required")
 	private String name;
 
@@ -41,4 +45,8 @@ public class Order {
 
 	private Date placedAt;
 
+	public void addDesign(Taco design) {
+		tacos.add(design);
+	}
+	
 }

@@ -23,7 +23,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
 import example.sia5.tacos.config.WebConfig;
-import example.sia5.tacos.model.Design;
+import example.sia5.tacos.model.Taco;
 import example.sia5.tacos.model.Ingredient;
 import example.sia5.tacos.model.Ingredient.Type;
 
@@ -48,7 +48,7 @@ public class DesignTacoControllerTest {
 	 */
 
 	// tag::testProcessForm[]
-	private Design design;
+	private Taco design;
 
 	// end::testProcessForm[]
 
@@ -64,7 +64,7 @@ public class DesignTacoControllerTest {
 
 		// end::testShowDesignForm[]
 
-		design = new Design();
+		design = new Taco();
 		design.setName("Test Taco");
 		design.setIngredients(Arrays.asList("FLTO", "GRBF", "CHED"));
 		// tag::testShowDesignForm[]
