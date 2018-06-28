@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="h2_embedded-164475679c8-6cdfada5df7aa1cb" provider="generic" driver="h2_embedded" name="H2 - testdb" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="mem:testdb" url="jdbc:h2:mem:testdb" user="sa" type="dev"/>
+	</data-source>
+	<data-source id="h2_embedded-1644757efcc-66160001c8b6d1ca" provider="generic" driver="h2_embedded" name="taco-cloud" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="mem:testdb" url="jdbc:h2:mem:testdb" user="sa" type="dev"/>
+	</data-source>
+	<data-source id="h2_embedded-1644758ee5d-38d9c92b6acafadd" provider="generic" driver="h2_embedded" name="H2 - testdb - taco" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="mem:testdb" url="jdbc:h2:mem:testdb" user="sa" type="dev"/>
+	</data-source>
+	<data-source id="h2_embedded-1644759d9ca-2380df90b926951a" provider="generic" driver="h2_embedded" name="H2 - testdb" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="mem:testdb" url="jdbc:h2:mem:testdb" user="sa" type="dev"/>
+	</data-source>
+	<data-source id="h2_embedded-164475cb8e9-25ea7899ee9417a4" provider="generic" driver="h2_embedded" name="H2 - tesdb" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="mem:tesdb" url="jdbc:h2:mem:tesdb" user="sa" type="dev"/>
+	</data-source>
+	<filters/>
+</data-sources>

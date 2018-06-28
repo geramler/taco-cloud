@@ -21,8 +21,8 @@ import example.sia5.tacos.model.Ingredient;
 import example.sia5.tacos.model.Ingredient.Type;
 import example.sia5.tacos.model.Order;
 import example.sia5.tacos.model.Taco;
-import example.sia5.tacos.respository.IngredientRepository;
-import example.sia5.tacos.respository.TacoRepository;
+import example.sia5.tacos.respository.jpa.IngredientRepository;
+import example.sia5.tacos.respository.jpa.TacoRepository;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
