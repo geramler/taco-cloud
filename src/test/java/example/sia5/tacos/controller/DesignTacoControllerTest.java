@@ -23,9 +23,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
 import example.sia5.tacos.config.WebConfig;
-import example.sia5.tacos.model.Taco;
 import example.sia5.tacos.model.Ingredient;
 import example.sia5.tacos.model.Ingredient.Type;
+import example.sia5.tacos.model.Taco;
 
 //tag::testProcessForm[]
 @RunWith(SpringRunner.class)

@@ -29,7 +29,7 @@ import lombok.extern.slf4j.Slf4j;
 @Controller
 @RequestMapping("/design")
 // specifies any model objects that should be kept in session
-@SessionAttributes("order")
+@SessionAttributes({"order"})
 public class DesignTacoController {
 
 	@ModelAttribute(name = "order")
@@ -69,7 +69,7 @@ public class DesignTacoController {
 	@PostMapping
 	public String processDesign(@Valid Taco design, Errors errors,
 			// Spring MVC should not attempt to bind request parameters to it
-			@ModelAttribute Order order) {
+			@ModelAttribute("order") Order order) {
 		if (errors.hasErrors()) {
 
 			List<FieldError> fieldErrors = errors.getFieldErrors();
